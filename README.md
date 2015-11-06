@@ -15,7 +15,12 @@ stripeBalance({
   secretKey: 'stripe-secret',
   account: 'stripe-account'
 }, function (err, balance) {
-  console.log(balance)
+  /*
+    balance: {
+      amount_available: 0,
+      amount_pending: 0
+    }
+  */
 })
 ```
 
