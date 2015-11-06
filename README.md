@@ -12,7 +12,8 @@ API
 var stripeBalance = require('stripe-balance')
 
 stripeBalance({
-  storageClient, container, remote
+  secretKey: 'stripe-secret',
+  account: 'stripe-account'
 }, function (err, balance) {
   console.log(balance)
 })
