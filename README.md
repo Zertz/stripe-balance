@@ -1,3 +1,5 @@
+**DEPRECATED: please use the [Stripe API](https://stripe.com/docs/api/node#balance) directly**
+
 stripe-balance
 ==============
 
